@@ -1,4 +1,4 @@
-import { ActionsAPI, ActionParameterDefinitions, ActionSettingDefinitions, ActionParameters, ActionSettings } from "@nasa-jpl/aerie-actions";
+import { ActionsAPI, ActionParameterDefinitions, ActionSettingDefinitions, ActionParameters, ActionSettings } from "@nasa-jpl/plandev-actions";
 import { RefreshResponse } from './models/refresh.js';
 
 export const parameterDefinitions = {

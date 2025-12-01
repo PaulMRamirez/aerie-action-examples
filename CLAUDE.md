@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-This repository contains runnable examples of [Aerie actions](https://nasa-ammos.github.io/aerie-docs/sequencing/actions/) for the NASA AMMOS Aerie mission planning system. Each example demonstrates patterns for building custom actions that can be uploaded to Aerie.
+This repository contains runnable examples of [PlanDev actions](https://nasa-ammos.github.io/plandev-docs/sequencing/actions/) for the NASA AMMOS PlanDev mission planning system. Each example demonstrates patterns for building custom actions that can be uploaded to PlanDev.
 
 ## Repository Structure
 
@@ -29,7 +29,7 @@ npm run build        # Build action to dist/action.js (TypeScript compile + Roll
 npm run test         # Run unit tests using Node.js test runner with tsx
 npm run lint         # Check formatting with Prettier and ESLint
 npm run format       # Auto-format code with Prettier
-npm run stringify    # Build and stringify for Aerie upload
+npm run stringify    # Build and stringify for PlanDev upload
 ```
 
 ## Technology Stack
@@ -39,7 +39,7 @@ npm run stringify    # Build and stringify for Aerie upload
 - **Build**: Rollup with TypeScript plugin
 - **Test**: Node.js native test runner (`node --test`) with tsx for TypeScript support
 - **Formatting**: Prettier
-- **Key Dependency**: `@nasa-jpl/aerie-actions` - Core library for action development
+- **Key Dependency**: `@nasa-jpl/plandev-actions` - Core library for action development
 
 ## Development Patterns
 
@@ -56,7 +56,7 @@ examples/<action-name>/
 ```
 
 ### Build Output
-Actions are bundled to `dist/action.js` - a single file ready for upload to Aerie.
+Actions are bundled to `dist/action.js` - a single file ready for upload to PlanDev.
 
 ## Testing
 

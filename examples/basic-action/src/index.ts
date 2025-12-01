@@ -4,7 +4,7 @@ import type {
   ActionSettingDefinitions,
   ActionParameters,
   ActionSettings,
-} from "@nasa-jpl/aerie-actions";
+} from "@nasa-jpl/plandev-actions";
 
 // Define schemas for your action's settings and parameters
 export const parameterDefinitions = {

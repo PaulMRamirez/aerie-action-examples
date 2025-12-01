@@ -1,11 +1,11 @@
-# aerie-action-examples
+# plandev-action-examples
 
-[![Tests](https://github.com/NASA-AMMOS/aerie-action-examples/actions/workflows/test.yml/badge.svg?branch=main)](https://github.com/NASA-AMMOS/aerie-action-examples/actions/workflows/test.yml)
+[![Tests](https://github.com/NASA-AMMOS/plandev-action-examples/actions/workflows/test.yml/badge.svg?branch=main)](https://github.com/NASA-AMMOS/plandev-action-examples/actions/workflows/test.yml)
 
-This repository contains runnable examples of [Aerie actions](https://nasa-ammos.github.io/aerie-docs/sequencing/actions/).  
+This repository contains runnable examples of [PlanDev actions](https://nasa-ammos.github.io/plandev-docs/sequencing/actions/).
 Use them as references or starting points for building your own actions.
 
-For more about actions and how they fit into the Aerie system, see the [Aerie docs](https://nasa-ammos.github.io/aerie-docs/sequencing/actions/).
+For more about actions and how they fit into the PlanDev system, see the [PlanDev docs](https://nasa-ammos.github.io/plandev-docs/sequencing/actions/).
 
 ## Prerequisites
 
@@ -46,7 +46,7 @@ To use the examples in this repository:
     ```bash
     npm run build
     ```
-    This generates a bundled file at `dist/action.js`, which you can [upload to Aerie](https://nasa-ammos.github.io/aerie-docs/sequencing/actions/).
+    This generates a bundled file at `dist/action.js`, which you can [upload to PlanDev](https://nasa-ammos.github.io/plandev-docs/sequencing/actions/).
 
 4. Optionally, run unit tests for the example:
 
@@ -55,7 +55,7 @@ To use the examples in this repository:
     ```
 
 ## Creating an action
-For small experiments, you can modify example files directly, rebuild, and re-upload to Aerie to see the effects. When you are ready to create your own action, it is usually easiest to start from one of the examples:
+For small experiments, you can modify example files directly, rebuild, and re-upload to PlanDev to see the effects. When you are ready to create your own action, it is usually easiest to start from one of the examples:
 1. Copy one of the example folders to a new location on your machine
 2. Inside the new folder, reset the environment:
 

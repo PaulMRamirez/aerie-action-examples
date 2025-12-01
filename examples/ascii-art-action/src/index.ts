@@ -4,7 +4,7 @@ import {
   ActionParameters,
   ActionSettingDefinitions,
   ActionSettings,
-} from "@nasa-jpl/aerie-actions";
+} from "@nasa-jpl/plandev-actions";
 import figlet from "figlet";
 
 // register inline figlet fonts to be included in the bundle
